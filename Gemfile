@@ -30,7 +30,8 @@ gem "jekyll-theme-hydejack", path: "./#jekyll-theme-hydejack"
 gem "duktape"
 
 # Fixes `jekyll serve` in ruby 3
-gem "webrick"
+# Comment for production
+# gem "webrick"
 
 group :jekyll_plugins do
   gem "jekyll-default-layout"
